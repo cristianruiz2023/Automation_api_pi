@@ -15,5 +15,5 @@ pip-selfcheck.json
 
 .mypy_cache
 /.vscode
-
+__pycache__/
 # End 
