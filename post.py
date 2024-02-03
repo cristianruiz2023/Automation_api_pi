@@ -1,8 +1,8 @@
 import requests
 
-data = {'title':'Mi prueba',
-        'body':'Este es el body de un blog cualquiera con su contenido',
-        'userId':1
+data = {'title': 'Mi prueba',
+        'body': 'Este es el body de un blog cualquiera con su contenido',
+        'userId': 1
         }
 req = requests.post("https://jsonplaceholder.typicode.com/posts", data=data)
 """Se crea el post dentro del servidor """
